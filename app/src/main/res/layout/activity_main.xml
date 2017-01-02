@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FCE4EC"
+    tools:context="com.ptlearnpoint.www.trainschedule.MainActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorPrimaryDark">
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:background="?android:attr/selectableItemBackground"
+            android:textColor="@android:color/white"
+            android:textAllCaps="true"
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ঢাকা টু ব্রাহ্মণবাড়িয়া "
+            />
+    </FrameLayout>
+    <Button
+        android:text="ঢাকা টু ব্রাহ্মণবাড়িয়া "
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1" />
+    <Button
+        android:text="ঢাকা টু ব্রাহ্মণবাড়িয়া "
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:id="@+id/button2" />
+    <Button
+    android:text="ঢাকা টু ব্রাহ্মণবাড়িয়া "
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:textColor="#fff"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content"
+    android:id="@+id/button3" />
+    <Button
+    android:text="ঢাকা টু ব্রাহ্মণবাড়িয়া "
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:textColor="#fff"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content"
+    android:id="@+id/button4" />  <Button
+    android:text="ঢাকা টু ব্রাহ্মণবাড়িয়া "
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:textColor="#fff"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="wrap_content"
+    android:id="@+id/button5" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_add_unit_id">
+        </com.google.android.gms.ads.AdView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

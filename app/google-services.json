@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913429327891",
+    "firebase_url": "https://trainschedule-2ddaf.firebaseio.com",
+    "project_id": "trainschedule-2ddaf",
+    "storage_bucket": "trainschedule-2ddaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913429327891:android:01e5da765b843c3d",
+        "android_client_info": {
+          "package_name": "com.ptlearnpoint.www.trainschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913429327891-031ertor8q6dv9emv1ubfhvd3p6jnono.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ptlearnpoint.www.trainschedule",
+            "certificate_hash": "08F78D67B3BA1C40B9FEB0FA1514134D74204639"
+          }
+        },
+        {
+          "client_id": "913429327891-s5mhm7o03o03mrivq1mlffplqmm3suu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8nox8WXmAM0DYfByiep1_tejflrrlyoM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913429327891-s5mhm7o03o03mrivq1mlffplqmm3suu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
